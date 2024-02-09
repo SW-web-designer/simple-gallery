@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf8">
+        <meta name="viewport" content="max-width=devica-width, initial-scale=1.0">
+		<title>galery</title>
+        <style>
+            *,
+            *::after,
+            *::before {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                outline: none;
+                border: none;
+                font-family: inherit;
+            }
+
+            .container {
+                max-width: 940px;
+                height: 100%;
+                border: 1px solid #FF9800;
+                border-radius: 7px;
+            }
+::-webkit-scrollbar {
+    height: 8px;
+display: flex;
+align-items: center;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ed602a;
+    height:8px;
+border-radius: .5rem;
+}
+            #show__picture {
+                width: 100%;
+                height: 450px;
+                background: url("https://s8.uupload.ir/files/img_۲۰۲۳۰۷۱۲_۱۱۵۴۲۶_xc0y.jpg");
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                border-bottom: 1px solid #FF9800;
+                border-radius: 6px;
+            }
+
+            .row__pictures {
+                width: 100%;
+                height: 110px;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                display: flex;
+                gap: 6px;
+            }
+
+            .row__pictures img {
+                transition: all .14s ease-in;
+                border: 2px solid transparent;
+            }
+
+            .row__pictures img:hover {
+                border: 2px solid #ed602a;
+                cursor: pointer;
+                filter: opacity(0.88);
+            }
+        </style>
+        <script>
+var url1 = "https://s8.uupload.ir/files/img_۲۰۲۳۰۷۱۲_۱۱۵۴۲۶_xc0y.jpg";
+var url2 = "https://s8.uupload.ir/files/2022-09-19_qxvk.jpg";
+var url3 = "https://s8.uupload.ir/files/nipikan-gallery-7-_lyi2.jpg";
+var url4 = "https://s8.uupload.ir/files/2022-10-09_u8w5.jpg";
+var url5 = "https://s8.uupload.ir/files/nipikan-gallery-9-_1or.jpg";
+var url6 = "https://s8.uupload.ir/files/2023-01-14_ksqg.jpg";
+var url7 = "https://s8.uupload.ir/files/2023-03-02_2h5n.jpg";
+var url8 = "https://s8.uupload.ir/files/2023-03-26_yzl.jpg";
+var url9 = "https://s8.uupload.ir/files/nipikan-gallery-1_6uve.jpg";
+var url10 = "https://s8.uupload.ir/files/nipikan-gallery-2_zokj.jpg";
+var url11 = "https://s8.uupload.ir/files/nipikan-gallery-3_4sc2.jpg";
+var url12 = "https://s8.uupload.ir/files/nipikan-gallery-4_erqz.jpg";
+var url13 = "https://s8.uupload.ir/files/nipikan-gallery-5_1g2.jpg";
+var url14 = "https://s8.uupload.ir/files/nipikan-gallery-14_exun.jpg";
+var url15 = "https://s8.uupload.ir/files/nipikan-gallery-15_sgy.jpg";
+
+function showImage1() {
+    document.getElementById("show__picture").style.background = "url(" + url1 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage2() {
+    document.getElementById("show__picture").style.background = "url(" + url2 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage3() {
+    document.getElementById("show__picture").style.background = "url(" + url3 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage4() {
+    document.getElementById("show__picture").style.background = "url(" + url4 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage5() {
+    document.getElementById("show__picture").style.background = "url(" + url5 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage6() {
+    document.getElementById("show__picture").style.background = "url(" + url6 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage7() {
+    document.getElementById("show__picture").style.background = "url(" + url7 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage8() {
+    document.getElementById("show__picture").style.background = "url(" + url8 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage9() {
+    document.getElementById("show__picture").style.background = "url(" + url9 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage10() {
+    document.getElementById("show__picture").style.background = "url(" + url10 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage11() {
+    document.getElementById("show__picture").style.background = "url(" + url11 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage12() {
+    document.getElementById("show__picture").style.background = "url(" + url12 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage13() {
+    document.getElementById("show__picture").style.background = "url(" + url13 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage14() {
+    document.getElementById("show__picture").style.background = "url(" + url14 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+function showImage15() {
+    document.getElementById("show__picture").style.background = "url(" + url15 + ")";
+    document.getElementById("show__picture").style.backgroundPosition = "center";
+    document.getElementById("show__picture").style.backgroundSize = "contain";
+    document.getElementById("show__picture").style.backgroundRepeat = "no-repeat";
+}
+        </script>
+	</head>
+	<body>
+		<div class="container">
+            <div id="show__picture">
+            </div>
+            <div class="row__pictures">
+                <img onclick="showImage1();" src="https://s8.uupload.ir/files/img_۲۰۲۳۰۷۱۲_۱۱۵۴۲۶_xc0y.jpg">
+                <img onclick="showImage2();" src="https://s8.uupload.ir/files/2022-09-19_qxvk.jpg">
+                <img onclick="showImage3();" src="https://s8.uupload.ir/files/nipikan-gallery-7-_lyi2.jpg">
+                <img onclick="showImage4();" src="https://s8.uupload.ir/files/2022-10-09_u8w5.jpg">
+                <img onclick="showImage5();" src="https://s8.uupload.ir/files/nipikan-gallery-9-_1or.jpg">
+                <img onclick="showImage6();" src="https://s8.uupload.ir/files/2023-01-14_ksqg.jpg">
+                <img onclick="showImage7();" src="https://s8.uupload.ir/files/2023-03-02_2h5n.jpg">
+                <img onclick="showImage8();" src="https://s8.uupload.ir/files/2023-03-26_yzl.jpg">
+                <img onclick="showImage9();" src="https://s8.uupload.ir/files/nipikan-gallery-1_6uve.jpg">
+                <img onclick="showImage10();" src="https://s8.uupload.ir/files/nipikan-gallery-2_zokj.jpg">
+                <img onclick="showImage11();" src="https://s8.uupload.ir/files/nipikan-gallery-3_4sc2.jpg">
+                <img onclick="showImage12();" src="https://s8.uupload.ir/files/nipikan-gallery-4_erqz.jpg">
+                <img onclick="showImage13();" src="https://s8.uupload.ir/files/nipikan-gallery-5_1g2.jpg">
+                <img onclick="showImage14();" src="https://s8.uupload.ir/files/nipikan-gallery-14_exun.jpg">
+                <img onclick="showImage15();" src="https://s8.uupload.ir/files/nipikan-gallery-15_sgy.jpg">
+            </div>
+        </div>
+	</body>
+</html>
